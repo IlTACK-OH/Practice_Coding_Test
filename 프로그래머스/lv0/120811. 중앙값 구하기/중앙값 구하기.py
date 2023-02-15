@@ -1,3 +1,3 @@
 def solution(array):
-    array.sort(reverse=True)
-    return array[(len(array)//2)]
+    array.sort()
+    return array[int(len(array)/2)]
